@@ -1,7 +1,12 @@
-import Login from "./src/Screens/Login/Index";
+
+import { AppProvider } from './src/context/AppContext';
+import StackNavigation from './src/navigation/stackNavigation';
+import Login from './src/screens/Login';
 
 export default function App() {
-    return (
-        <Login />
-    );
+  return (
+    <AppProvider>
+      <StackNavigation />
+    </AppProvider>
+  );
 }

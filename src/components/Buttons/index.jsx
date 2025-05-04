@@ -1,6 +1,6 @@
 import React from 'react';
 import { TouchableOpacity, Text, StyleSheet, Dimensions } from 'react-native';
-import { styles } from './Buttons.style';
+import { styles } from './Buttons.styles';
 
 const RoundButton = ({ onPress, text }) => {
     return (
@@ -17,7 +17,6 @@ const FullWidthButton = ({ onPress, text }) => {
         </TouchableOpacity>
     );
 };
-
 
 
 export { RoundButton, FullWidthButton };

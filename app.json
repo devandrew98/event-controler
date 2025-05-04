@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Event-Controller",
-    "slug": "Event-Controller",
+    "name": "event-controller",
+    "slug": "event-controller",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
