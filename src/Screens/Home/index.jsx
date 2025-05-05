@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { Ionicons } from '@expo/vector-icons';
 import { AppContext } from '../../context/AppContext';
-import { styles } from './Home.styles';
+import { styles } from '../Home/Home.styles';
 
 const Home = () => {
     const navigation = useNavigation();

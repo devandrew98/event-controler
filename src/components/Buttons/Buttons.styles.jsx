@@ -15,6 +15,7 @@ export const styles = StyleSheet.create({
         backgroundColor: 'blue',
         justifyContent: 'center',
         alignItems: 'center',
+        marginBottom: 10,
     },
     buttonText: {
         color: 'white',

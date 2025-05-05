@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
 import { AppContext } from "../../context/AppContext";
-import { styles } from "./UserProfile.styles";
+import { styles } from "../../Screens/UserProfile/UserProfile.styles";
 
 const UserProfile = () => {
     const { user, logout } = useContext(AppContext);

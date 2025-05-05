@@ -4,9 +4,11 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { AppContext } from '../context/AppContext';
 
-import Login from '../screens/Login';
+
 import TabNavigator from './TabNavigator';
-import ParticipanteForm from '../screens/ParticipanteForm';
+import Login from '../Screens/Login';
+import Cadastro from '../Screens/Cadastro/cadastro';
+
 
 const Stack = createNativeStackNavigator();
 
@@ -30,7 +32,8 @@ const Routes = () => {
                         <Stack.Screen name="AddParticipante" component={ParticipanteForm} />
                     </>
                 ) : (
-                    <Stack.Screen name="Login" component={Login} />
+                    <><Stack.Screen name="Login" component={Login} />
+                        <Stack.Screen name="Cadastro" component={Cadastro} /></>
                 )}
             </Stack.Navigator>
         </NavigationContainer>
